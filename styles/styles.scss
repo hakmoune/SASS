@@ -1,27 +1,23 @@
 @import "./variables.scss";
+@import "./mixins.scss";
 
 .text {
-  color: green;
-  font-size: $base-font-size;
+  @include base-font-style(green);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .text2 {
-  color: orange;
-  font-size: $base-font-size;
+  @include base-font-style(orange, red, font-style, italic);
   font-family: fantasy;
 }
 .text3 {
-  color: blue;
-  font-size: $base-font-size;
+  @include base-font-style(blue);
   font-family: cursive;
 }
 .text4 {
-  color: red;
-  font-size: $base-font-size;
+  @include base-font-style(red);
   font-family: monospace;
 }
 .text5 {
-  color: purple;
-  font-size: $base-font-size;
+  @include base-font-style(purple);
   font-family: "Courier New", Courier, monospace;
 }

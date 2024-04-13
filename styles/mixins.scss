@@ -1,0 +1,20 @@
+@mixin base-font-style(
+  $font-color,
+  $bg-color: transparent,
+  $property: null,
+  $value: null
+) {
+  @if ($bg-color != transparent) {
+    background-color: $bg-color;
+  }
+
+  @if ($property != null && $value != null) {
+    #{$property}: $value;
+  }
+
+  font-size: $base-font-size;
+  margin-bottom: $margin-bottom-font;
+  padding: 3rem;
+  color: $font-color;
+  border: 0.5rem solid black;
+}
