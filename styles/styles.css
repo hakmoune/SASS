@@ -1,0 +1,29 @@
+.text {
+  color: green;
+  font-size: 2.45rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.text2 {
+  color: orange;
+  font-size: 2.45rem;
+  font-family: fantasy;
+}
+
+.text3 {
+  color: blue;
+  font-size: 2.45rem;
+  font-family: cursive;
+}
+
+.text4 {
+  color: red;
+  font-size: 2.45rem;
+  font-family: monospace;
+}
+
+.text5 {
+  color: purple;
+  font-size: 2.45rem;
+  font-family: "Courier New", Courier, monospace;
+}/*# sourceMappingURL=styles.css.map */

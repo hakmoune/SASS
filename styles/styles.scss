@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+.text {
+  color: green;
+  font-size: $base-font-size;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.text2 {
+  color: orange;
+  font-size: $base-font-size;
+  font-family: fantasy;
+}
+.text3 {
+  color: blue;
+  font-size: $base-font-size;
+  font-family: cursive;
+}
+.text4 {
+  color: red;
+  font-size: $base-font-size;
+  font-family: monospace;
+}
+.text5 {
+  color: purple;
+  font-size: $base-font-size;
+  font-family: "Courier New", Courier, monospace;
+}
