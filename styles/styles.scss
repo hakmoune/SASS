@@ -21,3 +21,24 @@
   @include base-font-style(purple);
   font-family: "Courier New", Courier, monospace;
 }
+div {
+  h1 {
+    @include base-font-style(black);
+    font-family: "Courier New", Courier, monospace;
+
+    span {
+      font-size: 5rem;
+    }
+  }
+}
+section {
+  h1 {
+    @include base-font-style(white, black);
+    font-family: "Courier New", Courier, monospace;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
