@@ -52,3 +52,9 @@ section {
   @extend .div-container;
   text-align: center;
 }
+
+.text6 {
+  @include base-font-style(purple);
+  font-family: "Courier New", Courier, monospace;
+  width: 433px / 1243px * 100%;
+}
