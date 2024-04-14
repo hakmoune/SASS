@@ -42,3 +42,13 @@ section {
     }
   }
 }
+
+.div-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section-container {
+  @extend .div-container;
+  text-align: center;
+}

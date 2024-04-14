@@ -69,4 +69,13 @@ section h1 {
 section h1:hover {
   background-color: white;
   color: black;
+}
+
+.div-container, .section-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section-container {
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
